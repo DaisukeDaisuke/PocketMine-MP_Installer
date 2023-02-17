@@ -1,8 +1,6 @@
 name: Compile installer
 
 on:
-  schedule:
-    - cron: '27 13 * * *'
   workflow_dispatch:
 
 jobs:
